@@ -17,6 +17,10 @@
 		055A2B4E280FC4E500574896 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055A2B24280FC4DB00574896 /* ContentView.swift */; };
 		055A2B4F280FC4E500574896 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 055A2B25280FC4E400574896 /* Assets.xcassets */; };
 		055A2B50280FC4E500574896 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 055A2B25280FC4E400574896 /* Assets.xcassets */; };
+		056A944C2810D31900A2DB36 /* Brain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056A944B2810D31900A2DB36 /* Brain.swift */; };
+		056A944D2810D31900A2DB36 /* Brain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056A944B2810D31900A2DB36 /* Brain.swift */; };
+		056A94512810D35500A2DB36 /* RPGView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056A94502810D35500A2DB36 /* RPGView.swift */; };
+		056A94522810D35500A2DB36 /* RPGView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056A94502810D35500A2DB36 /* RPGView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,8 @@
 		055A2B43280FC4E500574896 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		055A2B47280FC4E500574896 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		055A2B49280FC4E500574896 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		056A944B2810D31900A2DB36 /* Brain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brain.swift; sourceTree = "<group>"; };
+		056A94502810D35500A2DB36 /* RPGView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPGView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +105,9 @@
 			children = (
 				055A2B23280FC4DB00574896 /* RPGApp.swift */,
 				055A2B24280FC4DB00574896 /* ContentView.swift */,
+				056A944F2810D33E00A2DB36 /* View */,
 				055A2B25280FC4E400574896 /* Assets.xcassets */,
+				056A944E2810D32A00A2DB36 /* Model */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -139,6 +147,22 @@
 				055A2B49280FC4E500574896 /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		056A944E2810D32A00A2DB36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				056A944B2810D31900A2DB36 /* Brain.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		056A944F2810D33E00A2DB36 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				056A94502810D35500A2DB36 /* RPGView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,7 +323,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				056A94512810D35500A2DB36 /* RPGView.swift in Sources */,
 				055A2B4D280FC4E500574896 /* ContentView.swift in Sources */,
+				056A944C2810D31900A2DB36 /* Brain.swift in Sources */,
 				055A2B4B280FC4E500574896 /* RPGApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,7 +334,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				056A94522810D35500A2DB36 /* RPGView.swift in Sources */,
 				055A2B4E280FC4E500574896 /* ContentView.swift in Sources */,
+				056A944D2810D31900A2DB36 /* Brain.swift in Sources */,
 				055A2B4C280FC4E500574896 /* RPGApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
