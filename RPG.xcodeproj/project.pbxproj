@@ -105,9 +105,9 @@
 			children = (
 				055A2B23280FC4DB00574896 /* RPGApp.swift */,
 				055A2B24280FC4DB00574896 /* ContentView.swift */,
+				056A944E2810D32A00A2DB36 /* Model */,
 				056A944F2810D33E00A2DB36 /* View */,
 				055A2B25280FC4E400574896 /* Assets.xcassets */,
-				056A944E2810D32A00A2DB36 /* Model */,
 			);
 			path = Shared;
 			sourceTree = "<group>";

@@ -1,7 +1,7 @@
 import Foundation
 //RPG #desafioHolaMundo
 
-func IntC(_ Value: Substring) -> Int { Int(Value) ?? 0}
+func IntC(_ Value: Substring) -> Int { Int(Value) ?? 0 }
 
 struct Sujeto : Identifiable {
     var id: Int
